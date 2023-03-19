@@ -1,4 +1,4 @@
-@media screen and (max-width:1420px) {
+@media screen and (max-width:1440px) {
     .product-advertising:last-child {
         display: none;
     }
@@ -12,21 +12,21 @@
     }
 
     .nav__item:not(:last-child) {
-        margin-right: 30px;
+        margin-right: 40px;
     }
 
     .header__auth,
     .header__cart {
-        margin-left: 30px;
+        margin-left: 40px;
     }
 
     .products-nav .grid-container {
-        max-width            : 940px;
-        margin-top           : 60px;
+        max-width            : 960px;
+        margin-top           : 70px;
         display              : grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows   : 1fr 1fr 1fr 1fr;
-        gap                  : 10px;
+        gap                  : 12px;
         grid-template-areas  :
             "macbook macbook"
             "iphone ipad"
@@ -36,21 +36,21 @@
     }
 
     .advantages-cards_card {
-        margin-right: 10px;
+        margin-right: 12px;
     }
 
     .card-slider {
-        width: 500px;
+        width: 600px;
     }
 
     .swiper-slide .swiper-slide-active {
-        max-width: 488px;
+        max-width: 490px;
     }
 
     .vendor,
     .price,
     .available {
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
 
 }
